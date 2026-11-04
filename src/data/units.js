@@ -1,0 +1,42 @@
+export const UNITS = [
+  {
+    id: 1,
+    number: "UNIT I",
+    title: "Introduction to Operating System and Process Management",
+    description: "Fundamentals of processes, life-cycle states, and Linux kernel system calls (fork, exit, exec, getpid, wait).",
+    icon: "Cpu",
+    practicalIds: [1, 2, 3, 4, 5],
+  },
+  {
+    id: 2,
+    number: "UNIT II",
+    title: "Process Scheduling",
+    description: "CPU scheduling algorithms, calculation of waiting time, turnaround time, Gantt charts, and Round Robin quantum impact.",
+    icon: "Clock",
+    practicalIds: [6, 7, 8],
+  },
+  {
+    id: 3,
+    number: "UNIT III",
+    title: "Process Synchronization and Deadlock",
+    description: "Classical concurrency problems (Reader-Writer, Producer-Consumer, Peterson's, Dining Philosophers, IPC pipes) and Deadlock handling (Banker's Algorithm, detection, starvation).",
+    icon: "Lock",
+    practicalIds: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+  },
+  {
+    id: 4,
+    number: "UNIT IV",
+    title: "Memory Management",
+    description: "Contiguous and non-contiguous memory partition allocation strategies: First Fit and Best Fit comparison.",
+    icon: "HardDrive",
+    practicalIds: [19],
+  },
+  {
+    id: 5,
+    number: "UNIT V",
+    title: "File and I/O Management",
+    description: "Linux shell scripting, file permissions (chmod), text filters (grep/sed/awk), system administration, and file allocation methods (Contiguous vs Linked).",
+    icon: "FolderGit2",
+    practicalIds: [20, 21, 22, 23, 24],
+  },
+];
